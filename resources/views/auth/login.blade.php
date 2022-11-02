@@ -43,6 +43,12 @@
                     {{ __('Log in') }}
                 </x-jet-button>
             </div>
+
+            <div class="flex items-center justify-end mt-4">
+                <x-jet-button class="ml-4">
+                    {{ __('Login with Github') }}
+                </x-jet-button>
+            </div>
         </form>
     </x-jet-authentication-card>
 </x-guest-layout>
